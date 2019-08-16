@@ -1,0 +1,29 @@
+<!--miniprogram/pages/m_erp/home.wxml-->
+<view class="pg-home">
+  <view class="main">
+  <view class="header">
+  Erp管理系统
+  </view>
+    <i-grid>
+      <i-grid-item>
+        <i-grid-icon>
+          <text class="iconfont icon-Newly_added"></text>
+        </i-grid-icon>
+        <i-grid-label i-class="grid-lable">入库</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+        <i-grid-icon>
+          <text class="iconfont icon-Outbound_management"></text>
+        </i-grid-icon>
+        <i-grid-label i-class="grid-lable">出库</i-grid-label>
+      </i-grid-item>
+      <i-grid-item>
+        <i-grid-icon>
+          <text class="iconfont icon-To_examine"></text>
+        </i-grid-icon>
+        <i-grid-label i-class="grid-lable">查询</i-grid-label>
+      </i-grid-item>
+    </i-grid>
+
+  </view>
+</view>

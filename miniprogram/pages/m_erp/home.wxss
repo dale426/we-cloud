@@ -1,0 +1,32 @@
+.main .iconfont {
+  font-size: 56rpx;
+  /* font-weight: bold; */
+}
+
+.main .header {
+  display: flex;
+  height: 240rpx;
+  font-size: 42rpx;
+  font-family:"PingFangSC-Thin";
+  color: #333;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.icon-Newly_added {
+  color: hsla(133, 85%, 40%, 0.835);
+}
+
+.icon-Outbound_management {
+  color: rgba(17, 112, 236, 0.877);
+}
+
+.icon-To_examine {
+  color: rgb(76, 0, 255);
+}
+
+.main .grid-lable {
+  font-size: 34rpx;
+  margin-top: 30rpx;
+}
