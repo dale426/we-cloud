@@ -1,0 +1,9 @@
+<text>search</text>
+<view class="pg-search">
+  <form>
+    <view>
+    <text class="iconfont "></text>
+    <input name="input" placeholder="please input here" />
+    </view>
+  </form>
+</view>

@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/m_import",
+    "pages/m_search/index",
+    "pages/m_import/index",
     "pages/m_erp/home",
     "pages/index/index",
     "pages/userConsole/userConsole",

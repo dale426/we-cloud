@@ -1,4 +1,4 @@
-// pages/m_import.js
+// miniprogram/pages/m_select/index.js
 Page({
 
   /**
