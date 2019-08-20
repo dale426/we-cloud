@@ -1,0 +1,8 @@
+<!--miniprogram/pages/login/index.wxml-->
+<view class="pg-login">
+  <i-input right value="{{ name }}" type="text" title="账号" placeholder="请输入账号" />
+  <i-input right value="{{ password  }}" type="password" title="密码" placeholder="请输入密码" />
+  <view class="login-btn">
+    <i-button bind:click="handlerLogin" type="primary" long="true">登录</i-button>
+  </view>
+</view>

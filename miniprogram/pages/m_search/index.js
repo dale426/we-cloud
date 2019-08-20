@@ -7,6 +7,13 @@ Page({
   data: {
 
   },
+  queryList: function(e) {
+    // if ()
+    let val= e.detail.value;
+    if (val === '') return '';
+    
+    console.log(e.detail)
+  },
 
   /**
    * 生命周期函数--监听页面加载
