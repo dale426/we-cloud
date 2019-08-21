@@ -8,8 +8,21 @@ Page({
     name: '',
     password: ''
   },
+  bindKeyInput: function(e) {
+    let name = e.currentTarget.dataset.key
+    let val = e.detail.detail.value
+    this.setData({
+      [name]: val
+    });
+  },
   handlerLogin: function() {
     let data = this.data;
+    if (!data.name || !data.password) {
+      return wx.showToast({
+        title: '账号和密码不能为空',
+        icon: 'none'
+      })
+    }
     wx.cloud.callFunction({
       name: 'login',
       data: data,
