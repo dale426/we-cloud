@@ -1,4 +1,4 @@
-// miniprogram/pages/m_erp/home.js
+// miniprogram/pages/add-goods/index.js
 const app = getApp();
 Page({
 
@@ -6,12 +6,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    goodsName: '',
+    goodsType: '',
+    goodsDescription:''
   },
-  handlerGridOpera: function(e) {
-    let { key } = e.currentTarget.dataset
-    wx.navigateTo({
-      url: `/pages/${key}/index`,
+  bindKeyInput: function(e) {
+    let name = e.currentTarget.dataset.key
+    let val = e.detail.detail.value
+    this.setData({
+      [name]: val
+    });
+  },
+  submitAddClassify: function() {
+    let params = {
+      name: 'addClassify',
+      data: this.data
+    }
+    app.ajax(params).then(res => {
+      console.log(123, res)
+    }).catch(e => {
+      console.log(e)
     })
   },
   /**

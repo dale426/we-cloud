@@ -1,0 +1,13 @@
+<!--miniprogram/pages/add-goods/index.wxml-->
+<view class="pg-classify">
+  <view class="classify-title">
+    <i-icon type="activity" size="24" color="#5cadff" /> 添加商品种类</view>
+  <i-panel title="">
+    <i-input right maxlength="30" bind:change="bindKeyInput" data-key="goodsName" value="{{ goodsName }}" title="商品名称" autofocus placeholder="请输入商品名称" />
+    <i-input right maxlength="30" bind:change="bindKeyInput" data-key="goodsType" value="{{ goodsType }}" title="型号" placeholder="请输入型号" />
+    <i-input right bind:change="bindKeyInput" data-key="goodsDescription" value="{{ goodsDescription }}" type="textarea" title="详细描述" placeholder="请输入详细描述(最多50字)" maxlength="50" />
+  </i-panel>
+  <view class="submit-btn">
+    <i-button bind:click="submitAddClassify" long="true" type="primary">确认添加</i-button>
+  </view>
+</view>

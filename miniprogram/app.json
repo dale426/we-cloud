@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/add-classify/index",
+    "pages/m_erp/home",
     "pages/login/index",
     "pages/m_search/index",
-    "pages/m_import/index",
-    "pages/m_erp/home"
+    "pages/m_import/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

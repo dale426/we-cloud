@@ -1,0 +1,19 @@
+/* miniprogram/pages/add-goods/index.wxss */
+
+.pg-classify {
+  padding: 0 10rpx;
+}
+.classify-title {
+  display: flex;
+  align-items: center;
+  font-size: 32rpx;
+  font-weight: bold;
+  padding: 20rpx 0;
+  border-bottom: 2rpx solid #5cadff;
+  background: #fff;
+  margin-bottom: 16rpx;
+  color: #333;
+}
+.submit-btn {
+  margin-top: 40rpx;
+}
